@@ -37,18 +37,6 @@ li a:hover {
     background-image: linear-gradient(290deg, #ffff7b 0, #ffff6f 12.5%, #fff564 25%, #ffda5b 37.5%, #f2bd53 50%, #dda24c 62.5%, #ca8b46 75%, #b87742 87.5%, #a9673f 100%);
 }
 
-.laptop {
-    width: 80px;
-    height: 80px;
-    filter: invert();
-}
-
-.arrow {
-    width: 30px;
-    height: 20px;
-    filter: invert();
-}
-
 
 /* Clear floats after the columns */
 
@@ -150,7 +138,7 @@ select {
 
 @media screen and (max-width:700px) {
     header h1 {
-        font-size: 20vw;
+        font-size: 15vw;
     }
     header {
         padding: 20px;
@@ -181,9 +169,5 @@ select {
     }
     footer {
         padding: 20px;
-    }
-    .laptop {
-        width: 6vw;
-        height: 5vh;
     }
 }
