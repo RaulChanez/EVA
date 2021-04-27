@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="home" class="relleno_lateral">
+        <h1>Selectors en CSS</h1>
+        <img class="laptop" src="/fontawesome/laptop-code-solid.svg" alt="">
+    </header>
+    <ul>
+        <li><a href="#section_6">Selector de Fills</a></li>
+        <li><a href="#section_5">Selector Combinat</a></li>
+        <li><a href="#section_4">Selector de Clase</a></li>
+        <li><a href="#section_3">Selector d'ID</a></li>
+        <li><a href="#section_2">Selector d'Etiqueta</a></li>
+        <li><a href="#section_1">Selector Universal</a></li>
+        <li>
+            <a href="#home"><img class="arrow" src="/fontawesome/arrow-up-solid.svg" alt=""></a>
+        </li>
+    </ul>
+    <div class="video relleno_lateral">
+        <p>Tutorial Selectors en CSS</p>
+        <iframe src="https://www.youtube.com/embed/uqkj7HQ7ids" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <section>
+        <div id="section_1" class="row relleno_lateral">
+            <div class="column2 texto">
+                <h2>Selector Universal</h2>
+                <p>Amb aquet selector podem seleccioanr tot el contigut d'una pàgina.</p>
+            </div>
+            <div class="column2">
+                <img src="/img/Universal.PNG" alt="">
+            </div>
+        </div>
+        <div id="section_2" class="row relleno_lateral">
+            <div class="column2">
+                <img src="/img/Etiqueta.PNG" alt="">
+            </div>
+            <div class="column2">
+                <h2>Selector d'Etiqueta/Tipus</h2>
+                <p>El selector de tipus o també conegut com d'etiqueta s'encarrega de seleccionar tots els elements de la pàgina l'etiqueta HTML coincideixi.</p>
+            </div>
+        </div>
+        <div id="section_3" class="row relleno_lateral">
+            <div class="column2  texto">
+                <h2>Selector d'ID</h2>
+                <p>És aquell que et permet seleccionar un element de la pàgina a través de el valor del seu atribut id. Aquest tipus de selectors només seleccionen un element de la pàgina perquè el valor de l'atribut id no es pot repetir.</p>
+            </div>
+            <div class="column2">
+                <img src="/img/ID.PNG" alt="">
+            </div>
+        </div>
+        <div id="section_4" class="row relleno_lateral">
+            <div class="column2">
+                <img src="/img/Clase.PNG" alt="">
+            </div>
+            <div class="column2">
+                <h2>Selector de Clase</h2>
+                <p>Els selectors de classe busquen un element que se li relacioni amb un atribut de classe.</p>
+            </div>
+        </div>
+        <div id="section_5" class="row relleno_lateral">
+            <div class="column2  texto">
+                <h2>Selector Combinat</h2>
+                <p>El selector combinat serveix per fer un selector mes específic unint dos d'ells.</p>
+            </div>
+            <div class="column2">
+                <img src="/img/Combinado.PNG" alt="">
+            </div>
+        </div>
+        <div id="section_6" class="row relleno_lateral">
+            <div class="column2">
+                <img src="/img/Padre.PNG" alt="">
+            </div>
+            <div class="column2">
+                <h2>Selector de Fills</h2>
+                <p>S'utilitza per seleccionar un element que és fill d'un altre element i s'indica mitjançant el "símbol major que"(>).</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>Selectors CSS</h2>
+        <select name="language" id="language" onchange="language()">
+            <option value="ES">Español</option>
+            <option value="CAT" selected>Catalán</option>
+        </select>
+    </footer>
+
+    <script src="./js/codigo.js"></script>
+
+</body>
+
+</html>
